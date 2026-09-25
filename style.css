@@ -1,0 +1,166 @@
+:root {
+  --page-background: #ffffff;
+  --section-background: #f1f1f1;
+  --box-background: #e2e2e2;
+  --footer-background: #d9d9d9;
+  --text-color: #353535;
+  --gap: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1366px;
+  min-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: var(--page-background);
+  color: var(--text-color);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.container {
+  width: 1366px;
+  min-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-logo,
+.header-menu,
+.header-button,
+.hero-content,
+.hero-image,
+.section-title,
+.feature-card,
+.small-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--box-background);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.site-header {
+  width: 100%;
+}
+
+.header-layout {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  padding: 20px 83px;
+  width: 1366px;
+}
+
+.header-logo {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.header-menu {
+  width: 820px;
+  height: 34px;
+  font-size: 20px;
+}
+
+.header-button {
+  width: 120px;
+  height: 42px;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.hero {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: var(--section-background);
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+.hero-content {
+  width: 585px;
+  height: 267px;
+  flex-shrink: 0;
+}
+
+.hero-image {
+  width: 585px;
+  height: 520px;
+  flex-shrink: 0;
+}
+
+.section {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  width: 600px;
+  height: 80px;
+  margin: 0 auto 40px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+.feature-card {
+  width: 380px;
+  height: 420px;
+  flex-shrink: 0;
+}
+
+.collection {
+  background: var(--section-background);
+}
+
+.small-card {
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.collection-list .small-card {
+  width: 216px;
+}
+
+.related-list .small-card {
+  width: 277.5px;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  min-width: 1366px;
+  height: 72px;
+  margin: 0 auto;
+  background: var(--footer-background);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
