@@ -9,11 +9,13 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  width: 1366px;
-  min-width: 1366px;
+  width: 1200px;
+  min-width: 1200px;
   min-height: 100vh;
   margin: 0 auto;
   background: var(--page-background);
@@ -25,8 +27,8 @@ body {
 }
 
 .container {
-  width: 1366px;
-  min-width: 1366px;
+  width: 1200px;
+  min-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,7 +58,7 @@ body {
   align-items: center;
   gap: var(--gap);
   padding: 20px 83px;
-  width: 1366px;
+  width: 1200px;
 }
 
 .header-logo {
@@ -154,8 +156,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1366px;
-  min-width: 1366px;
+  width: 1200px;
+  min-width: 1200px;
   height: 72px;
   margin: 0 auto;
   background: var(--footer-background);
